@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "my-expo-app",
+    "slug": "my-expo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.attiq.myexpoapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-video"
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0de91753-9cc4-4d5e-8ddb-3404aee654dd"
+      }
+    },
+    "owner": "attiq"
+  }
+}
